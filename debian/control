@@ -1,12 +1,12 @@
-Source: wiild
+Source: wiildos-meta
 Section: metapackages
 Priority: optional
 Maintainer: Mattia Rizzolo <mattia@mapreri.org>
 Build-Depends: debhelper(>= 9)
 Standards-Version: 3.9.5
 Homepage: http://www.wiild.it/
-Vcs-Git: git://anonscm.debian.org/users/mapreri-guest/wiildos/pkg-wiild.git
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=users/mapreri-guest/pkg-wiild.git
+Vcs-Git: git://anonscm.debian.org/users/mapreri-guest/wiildos/pkg-wiildos-meta.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=users/mapreri-guest/pkg-wiildos-meta.git
 
 Package: wiild-core
 Architecture: all
