@@ -2,14 +2,14 @@ Source: wiildos-meta
 Section: metapackages
 Priority: optional
 Maintainer: Mattia Rizzolo <mattia@mapreri.org>
-Build-Depends: debhelper(>= 9)
+Build-Depends: debhelper(>= 9), germinate (>= 1.18)
 Standards-Version: 3.9.5
 Homepage: http://www.wiild.it/
 Vcs-Git: git://anonscm.debian.org/users/mapreri-guest/wiildos/pkg-wiildos-meta.git
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=users/mapreri-guest/pkg-wiildos-meta.git
 
 Package: wiild-core
-Architecture: all
+Architecture: any
 Depends: ${germinate:Depends}
 Recommends: ${germinate:Recommends}
 Description: Metapackage to install educational whiteboards related software - core set
@@ -21,7 +21,7 @@ Description: Metapackage to install educational whiteboards related software - c
  This metapackage installs the core set of WiildOs software.
 
 Package: wiild-math
-Architecture: all
+Architecture: any
 Depends: ${germinate:Depends}
 Recommends: ${germinate:Recommends}
 Description: Metapackage to install educational whiteboards related software - math set
@@ -33,7 +33,7 @@ Description: Metapackage to install educational whiteboards related software - m
  This metapackage provides math related software.
 
 Package: wiild-science
-Architecture: all
+Architecture: any
 Depends: ${germinate:Depends}
 Recommends: ${germinate:Recommends}
 Description: Metapackage to install educational whiteboards related software - science set
@@ -45,7 +45,7 @@ Description: Metapackage to install educational whiteboards related software - s
  This metapackage provides science related software.
 
 Package: wiild-graphic
-Architecture: all
+Architecture: any
 Depends: ${germinate:Depends}
 Recommends: ${germinate:Recommends}
 Description: Metapackage to install educational whiteboards related software - graphic set
@@ -57,7 +57,7 @@ Description: Metapackage to install educational whiteboards related software - g
  This metapackage provides graphic related software.
 
 Package: wiild-programming
-Architecture: all
+Architecture: any
 Depends: ${germinate:Depends}
 Recommends: ${germinate:Recommends}
 Description: Metapackage to install educational whiteboards related software - programming set
@@ -69,7 +69,7 @@ Description: Metapackage to install educational whiteboards related software - p
  This metapackage provides programming related software.
 
 Package: wiild-misc
-Architecture: all
+Architecture: any
 Depends: ${germinate:Depends}
 Recommends: ${germinate:Recommends}
 Description: Metapackage to install educational whiteboards related software - misc set
@@ -81,7 +81,7 @@ Description: Metapackage to install educational whiteboards related software - m
  This metapackage provides misc educational software
 
 Package: wiild-all
-Architecture: all
+Architecture: any
 Depends: ${germinate:Depends}
 Recommends: ${germinate:Recommends}
 Description: Metapackage to install all educational whiteboards related software
