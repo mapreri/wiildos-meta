@@ -10,14 +10,8 @@ Vcs-Browser: http://anonscm.debian.org/gitweb/?p=users/mapreri-guest/pkg-wiildos
 
 Package: wiild-core
 Architecture: all
-Depends: ardesia,
-         cellwriter,
-         curtain,
-         epoptes,
-         gnome-orca,
-         python-whiteboard,
-         spotlighter,
-         ${misc:Depends}
+Depends: ${germinate:Depends}
+Recommends: ${germinate:Recommends}
 Description: Metapackage to install educational whiteboards related software - core set
  WiildOs is a project to improve the advance of Free Software in schools of every
  level and kind. WiildOs-related software provides an environment to set-up a
@@ -28,11 +22,8 @@ Description: Metapackage to install educational whiteboards related software - c
 
 Package: wiild-math
 Architecture: all
-Depends: geogebra,
-         lybniz,
-         tuxmath,
-         wxmaxima,
-         ${misc:Depends}
+Depends: ${germinate:Depends}
+Recommends: ${germinate:Recommends}
 Description: Metapackage to install educational whiteboards related software - math set
  WiildOs is a project to improve the advance of Free Software in schools of every
  level and kind. WiildOs-related software provides an environment to set-up a
@@ -43,14 +34,8 @@ Description: Metapackage to install educational whiteboards related software - m
 
 Package: wiild-science
 Architecture: all
-Depends: celestia,
-         chemtool,
-         gcu-bin,
-         gperiodic,
-         kicad,
-         numptyphysics,
-         stellarium,
-         ${misc:Depends}
+Depends: ${germinate:Depends}
+Recommends: ${germinate:Recommends}
 Description: Metapackage to install educational whiteboards related software - science set
  WiildOs is a project to improve the advance of Free Software in schools of every
  level and kind. WiildOs-related software provides an environment to set-up a
@@ -61,14 +46,8 @@ Description: Metapackage to install educational whiteboards related software - s
 
 Package: wiild-graphic
 Architecture: all
-Depends: gpicview,
-         inkscape,
-         librecad,
-         ocrfeeder,
-         pinta,
-         scribus,
-         tuxpaint,
-         ${misc:Depends}
+Depends: ${germinate:Depends}
+Recommends: ${germinate:Recommends}
 Description: Metapackage to install educational whiteboards related software - graphic set
  WiildOs is a project to improve the advance of Free Software in schools of every
  level and kind. WiildOs-related software provides an environment to set-up a
@@ -79,9 +58,8 @@ Description: Metapackage to install educational whiteboards related software - g
 
 Package: wiild-programming
 Architecture: all
-Depends: geany,
-         scratch,
-         ${misc:Depends}
+Depends: ${germinate:Depends}
+Recommends: ${germinate:Recommends}
 Description: Metapackage to install educational whiteboards related software - programming set
  WiildOs is a project to improve the advance of Free Software in schools of every
  level and kind. WiildOs-related software provides an environment to set-up a
@@ -92,19 +70,8 @@ Description: Metapackage to install educational whiteboards related software - p
 
 Package: wiild-misc
 Architecture: all
-Depends: collatinus,
-         dia,
-         fbreader,
-         freeplane,
-         gcompris,
-         jclic,
-         marble,
-         musescore,
-         osmo,
-         pdfmod,
-         pingus,
-         xournal,
-         ${misc:Depends}
+Depends: ${germinate:Depends}
+Recommends: ${germinate:Recommends}
 Description: Metapackage to install educational whiteboards related software - misc set
  WiildOs is a project to improve the advance of Free Software in schools of every
  level and kind. WiildOs-related software provides an environment to set-up a
@@ -115,13 +82,8 @@ Description: Metapackage to install educational whiteboards related software - m
 
 Package: wiild-all
 Architecture: all
-Depends: wiild-astronomy,
-         wiild-core,
-         wiild-graphic,
-         wiild-math,
-         wiild-misc,
-         wiild-programming,
-         ${misc:Depends}
+Depends: ${germinate:Depends}
+Recommends: ${germinate:Recommends}
 Description: Metapackage to install all educational whiteboards related software
  WiildOs is a project to improve the advance of Free Software in schools of every
  level and kind. WiildOs-related software provides an environment to set-up a
